@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Jost', sans-serif;
+    /* background-color: black; */
+}
+
+
+/* login css */
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-up-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    margin-bottom: 25px;
+    background: #d816c8;
+    color: white;
+}
+
+button:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+
+/* Existing CSS */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.user-card,
+.guest-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.logout-btn,
+.admin-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover,
+.admin-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.user-card h2,
+.guest-card h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.user-card .logout-btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-card .logout-btn:hover {
+    background-color: #c82333;
+}
